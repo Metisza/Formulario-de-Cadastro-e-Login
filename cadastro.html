@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+
+<body>
+    <form action="pagina.php" method="post" autocomplete="off" class="form">
+        <fieldset class="field_form">
+            <h1 class="log_title">Cadastre-se</h1>
+            <label for="nome">Usuario</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome de usuario" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Insira um email ativo" required>
+
+            <label for="pass">Senha</label>
+            <input type="password" name="pass" id="pass" placeholder="senha de 8 digitos" required>
+
+            <div class="form_action">
+                <input type="submit" value="Cadastre-se" class="btn btn_log">
+                <p class="align_right">Já possui cadastro? <a href="login.html">Faça Login</a></p>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
